@@ -5,8 +5,11 @@ A browser interface based on Gradio library for Stable Diffusion.
 
 ## TLDR
 
+I install using poetry, you know how to `poetry install` and activate `workon` the virtual environment, right?
+Supports Python 3.11 now.
+
 ```bash
-python launch.py
+python launch.py --skip-torch-cuda-test --skip-python-version-check --no-half
 ```
 
 
